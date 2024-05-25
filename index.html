@@ -24,25 +24,30 @@
             <p>Est. 2020</p>
             <section>
                 <h2>Coffee</h2>
-                <article>
-                    <p class="flavor">French Vanilla</p>
-                    <p>3.00</p>
+                <article class="item">
+                    <!--p elements are block-level elements, so they take up the entire width of their parent element.
+                    To get them on the same line, you need to apply some styling to the p elements so they behave more
+                    like inline elements. To do that, start by adding a class attribute with the value item to the
+                    first article element under the Coffee heading.
+
+                    The p elements are nested in an article element with the class attribute of item. You can style
+                    all the p elements nested anywhere in elements with a class named item like this:.item p { }
+                    Using the above selector, add a display property with value inline-block so the p elements 
+                    behave more like inline elements.
+                -->
+                    <p class="flavor">French Vanilla</p><p class="price">3.00</p>
                  </article>
-                 <article>
-                    <p>Caramel Macchiato</p>
-                    <p>3.75</p>
+                 <article class="item">
+                    <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
                  </article>
-                 <article>
-                   <p>Pumpkin Spice</p>
-                   <p>3.50</p>
+                 <article class="item">
+                   <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
                  </article>
-                 <article>
-                   <p>Hazelnut</p>
-                   <p>4.00</p>
+                 <article class="item">
+                   <p class="flavor">Hazelnut</p><p class="price">4.00</p>
                  </article>
-                 <article>
-                   <p>Mocha</p>
-                   <p>4.50</p>
+                 <article class="item">
+                   <p class="flavor">Mocha</p><p class="price">4.50</p>
                  </article>
             </section>
             <section>
