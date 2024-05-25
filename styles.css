@@ -26,7 +26,7 @@ in front of it, like this:
     margin-left: auto;
     margin-right: auto;
 }
-.flavor {
+.dessert, .flavor {
     text-align: left;
     width: 75%;
 }
