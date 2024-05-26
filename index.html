@@ -5,7 +5,7 @@
 
     <!--For the styling of the page to look similar on mobile as it does on a desktop or 
         laptop, you need to add a meta element with a special content attribute.
--->
+--> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafe Menu</title>
     <link rel="stylesheet" href="styles.css">
@@ -17,63 +17,62 @@
         the element's id value. For example, if an element has the id of cat then you
         would target that element like this:
 -->
-
+<main>
     <div class ="menu">
-        <main>
-            <h1>HINTELL CAFE</h1>
-            <p class="established">Est. 2020</p>
-            <hr>
-            <section>
-                <h2>Coffee</h2>
-                <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee Icon">
-                <article class="item">
-                    <!--p elements are block-level elements, so they take up the entire width of their parent element.
-                    To get them on the same line, you need to apply some styling to the p elements so they behave more
-                    like inline elements. To do that, start by adding a class attribute with the value item to the
-                    first article element under the Coffee heading.
+        <h1>HINTELL CAFE</h1>
+        <p class="established">Est. 2020</p>
+        <hr>
+        <section>
+            <h2>Coffee</h2>
+            <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee Icon">
+            <article class="item">
+                <!--p elements are block-level elements, so they take up the entire width of their parent element.
+                To get them on the same line, you need to apply some styling to the p elements so they behave more
+                like inline elements. To do that, start by adding a class attribute with the value item to the
+                first article element under the Coffee heading.
 
-                    The p elements are nested in an article element with the class attribute of item. You can style
-                    all the p elements nested anywhere in elements with a class named item like this:.item p { }
-                    Using the above selector, add a display property with value inline-block so the p elements 
-                    behave more like inline elements.
-                -->
-                    <p class="flavor">French Vanilla</p><p class="price">3.00</p>
-                 </article>
-                 <article class="item">
-                    <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
-                 </article>
-                 <article class="item">
-                   <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
-                 </article>
-                 <article class="item">
-                   <p class="flavor">Hazelnut</p><p class="price">4.00</p>
-                 </article>
-                 <article class="item">
-                   <p class="flavor">Mocha</p><p class="price">4.50</p>
-                 </article>
-                </section>
-                <section>
-                    <h2>Desserts</h2>
-                    <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon">
-                    <article class="item">
-                        <p class="dessert">Donut</p><p class="price">1.50</p>
-                    </article>
-                    <article class="item">
-                        <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
-                    </article>
-                    <article class="item">
-                        <p class="dessert">Cheesecake</p><p class="price">3.00</p>
-                    </article>
-                    <article class="item">
-                        <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
-                    </article>
-                </section>
-        </main>
-        <hr class="bottom-line">
-        <footer class="link">
-            <p><a href=" https://www.freecodecamp.org" target="_blank">Visit our website</a></p>
-            <p>123 Free Code Camp Drive</p>
-        </footer>
+                The p elements are nested in an article element with the class attribute of item. You can style
+                all the p elements nested anywhere in elements with a class named item like this:.item p { }
+                Using the above selector, add a display property with value inline-block so the p elements 
+                behave more like inline elements.
+            -->
+                <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+                </article>
+                <article class="item">
+                <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+                </article>
+                <article class="item">
+                <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+                </article>
+                <article class="item">
+                <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+                </article>
+                <article class="item">
+                <p class="flavor">Mocha</p><p class="price">4.50</p>
+                </article>
+            </section>
+            <section>
+                <h2>Desserts</h2>
+                <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon">
+                <article class="item">
+                    <p class="dessert">Donut</p><p class="price">1.50</p>
+                </article>
+                <article class="item">
+                    <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
+                </article>
+                <article class="item">
+                    <p class="dessert">Cheesecake</p><p class="price">3.00</p>
+                </article>
+                <article class="item">
+                    <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
+                </article>
+            </section>
+    <hr class="bottom-line">
+    <footer class="link">
+        <p><a href=" https://www.freecodecamp.org" target="_blank">Visit our website</a></p>
+        <p>123 Free Code Camp Drive</p>
+    </footer>
     </div>
+</main>
 </body>
 </html>
